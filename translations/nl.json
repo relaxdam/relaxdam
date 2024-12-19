@@ -59,5 +59,8 @@
   "contactId": "contact",
   "contact": "Contact",
   "bookNowId": "boek-nu",
-  "bookNow": "Boek Nu"
+  "bookNow": "Boek Nu",
+
+  "phone": "+31 6 82332281",
+  "phone_tel": "+31682332281"
 }
