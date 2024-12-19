@@ -4,7 +4,7 @@ const path = require('path');
 // Paths
 const templatesDir = path.join(__dirname, 'templates');
 const translationsDir = path.join(__dirname, 'translations');
-const outputDir = path.join(__dirname, 'www');
+const outputDir = path.join(__dirname, 'docs');
 const defaultLang = 'nl';
 
 // Read translations
