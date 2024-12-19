@@ -1,9 +1,10 @@
 
-//TODO:
-function toggleSideNav() {
-  const sideNav = document.getElementById("sideNav");
-  sideNav.classList.toggle("open");
-}
+
+document.addEventListener("click", function (event) {
+  if (event.target.matches('[popover] a')) {
+    event.target.closest('[popover]').hidePopover();
+  }
+});
 
 const endpoint = 'https://script.google.com/macros/s/AKfycbwMWN--sM2cg6mpAcw1IiUhhg558xuyejRghmJ0GnvMcz2WDM-8EDeNprLo-s4XHbGH/exec';
 
@@ -38,6 +39,14 @@ function fetchTimeslots() {
 document.addEventListener('DOMContentLoaded', function () {
   fetchReviews();
   fetchTimeslots();
+  
+  const dateInput = document.getElementById('date');
+  if (dateInput) {
+    if (dateInput.valueAsDate.getTime() < Date.now() - 86400000) {
+      const d = new Date();
+      dateInput.valueAsDate = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12);
+    }
+  }
 
   const form = document.getElementById("bookingForm");
   form.addEventListener("submit", (e) => {
