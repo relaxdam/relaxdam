@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Салон масажу Relaxdam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/booking.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div>
+      <button 
+        class="language-button" 
+        aria-controls="languagePopover" 
+        aria-expanded="false" 
+        popovertarget="languagePopover"
+        title="Оберіть мову">
+        🌐 Українська
+      </button>
+      <div id="languagePopover" popover>
+        <a href="/en" title="Англійська">English</a>
+        <a href="/" title="Голландська">Nederlands</a>
+        <a href="/uk" title="Українська">Українська</a>
+      </div>
+      <span class="logo">Relaxdam</span>
+    </div>
+    <div class="menu">      
+      <a href="#про-нас">Про нас</a>
+      <a href="#послуги">Послуги</a>
+      <a href="#ціновий-список">Ціновий список</a>
+      <a href="#відгуки">Відгуки</a>
+      <a href="#контакти">Контакти</a>
+      <a href="#забронювати" class="btn">Забронювати</a>
+    </div>
+    <span class="hamburger" onclick="toggleSideNav()">☰</span>
+  </div>
+
+  <div class="side-nav" id="sideNav" onclick="toggleSideNav()">
+    <a href="#послуги">Послуги</a>
+    <a href="#ціновий-список">Ціновий список</a>
+    <a href="#відгуки">Відгуки</a>
+    <a href="#контакти">Контакти</a>
+    <a href="#забронювати" class="btn">Забронювати</a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" width="100%" height="100%" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0084A1;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      
+      <rect x="0" y="0" width="1440" height="320" fill="url(#skyGradient)" />
+      <path fill="#0084A1" d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,213.3C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      <path fill="#F4E3C7" d="M0,320L80,300C160,280,320,240,480,224C640,208,800,224,960,240C1120,256,1280,272,1360,288L1440,304L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+    <img src="/palm.svg" style="    left: 0;
+    left: -50px;
+    height: 90vh;
+    right: auto;
+    width: auto;
+    top: auto;
+    bottom: -5vh;" />
+  <div class="overlay"></div>
+
+>
+
+    <div class="content">
+      <h1>Салон масажу Relaxdam</h1>
+      <p style="margin: auto;max-width:32em">Ми пропонуємо різноманітні масажі з використанням олій у теплій та затишній атмосфері</p>
+    </div>
+  </header>
+  
+  <section id="про-нас" style="padding: 4rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+    <!-- Image on the left -->
+
+ <div style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center; height: 100%;">
+    <img src="/images/pexels-anete-lusina-5240637.jpg" alt="Relaxdam Massage Salon" style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
+  </div>
+    <!-- Text on the right -->
+    <div style="flex: 1; max-width: 50%; margin-left: 2rem;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Про нас</h2>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        У салоні масажу Relaxdam ми пропонуємо спокійний притулок, де ви можете втекти від повсякденного стресу та розслабитися. Наше меню процедур включає різні види масажу, від класичного релаксаційного та спортивного до омолоджувальної ароматерапії. Кожна процедура виконується з використанням якісних олій у теплій, домашній атмосфері.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Наші досвідчені терапевти гарантують, що кожен сеанс залишить вас розслабленими та відновленими, дозволяючи вам легко відчути заспокійливий ефект масажної терапії.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Завітайте до Relaxdam та відкрийте момент спокою – де зустрічаються релаксація та добробут.
+      </p>
+    </div>
+  </section>
+  
+  
+  <section id="послуги" style="background-color: #f4f4f4; padding: 40px 0;">
+    <div class="container">      
+      <h2 class="section-title">Наші послуги</h2>
+      <div class="services-boxes">
+        <div class="service-box">
+          <h3>Класичний масаж</h3>
+          <p>Спробуйте традиційний масаж, розроблений для зняття напруги в м’язах, покращення кровообігу та загального розслаблення. Ідеально для тих, хто шукає полегшення від повсякденного стресу.</p>
+        </div>
+        <div class="service-box">
+          <h3>Масаж обличчя</h3>
+          <p>Заспокійливий масаж обличчя, який допомагає зняти напругу, покращити кровообіг і омолодити шкіру. Ідеально для тих, хто бажає розслабитися та освіжити обличчя і думки.</p>
+        </div>
+        <div class="service-box">
+          <h3>Релаксаційний масаж</h3>
+          <p>Наш релаксаційний масаж спрямований на глибоке розслаблення, допомагаючи зняти стрес і покращити ясність думок. Ідеальний вибір, щоб відпочити після напруженого дня.</p>
+        </div>
+        <div class="service-box">
+          <h3>Масаж стоп</h3>
+          <p>Терапевтичний масаж стоп, спрямований на зняття напруги та покращення кровообігу. Ідеально для тих, хто багато часу проводить на ногах, або для тих, хто шукає момент релаксації.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Parallax Section -->
+  <div class="parallax"></div>
+
+<section id="ціновий-список">
+  <div class="container">
+    <h2 class="section-title">Ціновий список</h2>
+    <div class="pricing-grid">
+      <div class="pricing-row">
+        <span class="service-name">Класичний масаж</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Масаж обличчя</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Релаксаційний масаж</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Масаж стоп</span>
+        <span class="service-price">50 EUR</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="забронювати">
+  <div class="container form-container">
+    <h2 class="section-title">Забронювати</h2>
+    
+    <form target="_blank" id="bookingForm">
+      <div class="form-group">
+        <label for="name">Ім’я</label>
+        <input type="text" id="name" name="name" placeholder="Ваше ім’я" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Електронна пошта</label>
+        <input type="email" id="email" name="email" placeholder="Ваша електронна адреса" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" name="phone" placeholder="06......." required>
+      </div>
+      <div class="date-time-group">
+        <div class="form-group">
+          <label for="date">Бажана дата</label>
+          <input type="date" id="date" name="date" value="2024-12-02" required>
+        </div>
+        <div class="form-group">
+          <label>Часовий інтервал</label>
+          <select id="time">
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:00">13:30</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn">Відправити</button>
+    </form>
+  </div>
+</section>
+
+<!--
+  <section id="reviews" class="reviews">
+    <h2>Recensies</h2>
+    <p>"Geweldige service en ontspannende sfeer!"</p>
+  </section>
+-->
+  <section id="відгуки" class="feedback-section">
+    <h2 class="section-title">Відгуки клієнтів</h2>
+    <div class="feedback-container" id="reviews-container" lang="auto">
+      <div class="feedback-card">
+        <p class="feedback-message">"Absolutely loved the relaxing massage! The atmosphere is amazing, and the therapists are professional."</p>
+        <p class="feedback-author"> Sophie</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"Great experience with the sports massage. Felt rejuvenated and ready for my next marathon!"</p>
+        <p class="feedback-author"> Mark</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"I appreciate the personalized service. The aromatherapy session was blissful."</p>
+        <p class="feedback-author"> Eva</p>
+      </div>
+    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF2p_NNbKsbsZSOyFNTisykHJG_vW0RyW0oUBRAy3iKYsWqg/viewform?usp=header" target="_blank">Залиште Відгук</a>
+  </section>
+
+<section id="контакти" class="contact-section">
+  <h2 class="section-title">Контакти</h2>
+  <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
+    <div class="contact-details">
+      <p><strong>Адреса:</strong> 123 Relax Street, Rotterdam</p>
+      <p><strong>Телефон:</strong> <a href="tel:+31123456789"><i class="fas fa-phone-alt"></i> +31 12 345 6789</a></p>
+      <p><strong>Електронна пошта:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>
+      <p><strong>Знайдіть нас на Google Maps:</strong> 
+        <a href="https://goo.gl/maps/abcd1234" target="_blank"><i class="fas fa-map-marker-alt"></i> Переглянути місцезнаходження</a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/www.Relaxlife/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="https://wa.me/31123456789" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: </a>
+        <!--<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>-->
+        <!--<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <p>© 2024 Relaxdam Massagesalon.</p>
+  </footer> -->
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relaxdam Massage salon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/booking.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div>
+      <button 
+        class="language-button" 
+        aria-controls="languagePopover" 
+        aria-expanded="false" 
+        popovertarget="languagePopover"
+        title="Select a language">
+        🌐 English
+      </button>
+      <div id="languagePopover" popover>
+        <a href="/en" title="English">English</a>
+        <a href="/" title="Dutch">Nederlands</a>
+        <a href="/uk" title="Ukrainian">Українська</a>
+      </div>
+      <span class="logo">Relaxdam</span>
+    </div>
+    <div class="menu">      
+      <a href="#about-us">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#pricelist">Pricelist</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#book-now" class="btn">Book Now</a>
+    </div>
+    <span class="hamburger" onclick="toggleSideNav()">☰</span>
+  </div>
+
+  <div class="side-nav" id="sideNav" onclick="toggleSideNav()">
+    <a href="#services">Services</a>
+    <a href="#pricelist">Pricelist</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#book-now" class="btn">Book Now</a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" width="100%" height="100%" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0084A1;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      
+      <rect x="0" y="0" width="1440" height="320" fill="url(#skyGradient)" />
+      <path fill="#0084A1" d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,213.3C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      <path fill="#F4E3C7" d="M0,320L80,300C160,280,320,240,480,224C640,208,800,224,960,240C1120,256,1280,272,1360,288L1440,304L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+    <img src="/palm.svg" style="    left: 0;
+    left: -50px;
+    height: 90vh;
+    right: auto;
+    width: auto;
+    top: auto;
+    bottom: -5vh;" />
+  <div class="overlay"></div>
+
+>
+
+    <div class="content">
+      <h1>Relaxdam Massage salon</h1>
+      <p style="margin: auto;max-width:32em">We offer a variety of oil massages in a warm and inviting atmosphere</p>
+    </div>
+  </header>
+  
+  <section id="about-us" style="padding: 4rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+    <!-- Image on the left -->
+
+ <div style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center; height: 100%;">
+    <img src="/images/pexels-anete-lusina-5240637.jpg" alt="Relaxdam Massage Salon" style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
+  </div>
+    <!-- Text on the right -->
+    <div style="flex: 1; max-width: 50%; margin-left: 2rem;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">About Us</h2>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        At Relaxdam Massage Salon, we offer a peaceful retreat where you can escape from daily stress and unwind. Our menu of treatments includes a range of massages, from classic relaxation and sports massages to rejuvenating aromatherapy. Each therapy is performed with high-quality oils in a warm, homely atmosphere.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Our skilled therapists ensure that every session leaves you feeling relaxed and refreshed, making it easy for you to experience the soothing benefits of massage therapy.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Come and discover a moment of tranquility at Relaxdam – where relaxation and well-being meet.
+      </p>
+    </div>
+  </section>
+  
+  
+  <section id="services" style="background-color: #f4f4f4; padding: 40px 0;">
+    <div class="container">      
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-boxes">
+        <div class="service-box">
+          <h3>Classic Massage</h3>
+          <p>Experience a traditional massage designed to relieve muscle tension, improve circulation, and promote overall relaxation. Ideal for those seeking relief from everyday stress.</p>
+        </div>
+        <div class="service-box">
+          <h3>Facial Massage</h3>
+          <p>A soothing facial massage that helps reduce tension, promote blood circulation, and rejuvenate the skin. Perfect for those looking to relax and refresh their face and mind.</p>
+        </div>
+        <div class="service-box">
+          <h3>Relaxation Massage</h3>
+          <p>Our Relaxation Massage focuses on deep relaxation, helping to release stress and promote mental clarity. A perfect choice to unwind after a busy day.</p>
+        </div>
+        <div class="service-box">
+          <h3>Foot Massage</h3>
+          <p>A therapeutic foot massage designed to relieve tension and improve circulation. Perfect for those on their feet all day or anyone looking for a relaxing escape.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Parallax Section -->
+  <div class="parallax"></div>
+
+<section id="pricelist">
+  <div class="container">
+    <h2 class="section-title">Price List</h2>
+    <div class="pricing-grid">
+      <div class="pricing-row">
+        <span class="service-name">Classic Massage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Facial Massage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Relaxation Massage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Foot Massage</span>
+        <span class="service-price">50 EUR</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book-now">
+  <div class="container form-container">
+    <h2 class="section-title">Book Now</h2>
+    
+    <form target="_blank" id="bookingForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="06......." required>
+      </div>
+      <div class="date-time-group">
+        <div class="form-group">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date" value="2024-12-02" required>
+        </div>
+        <div class="form-group">
+          <label>Time slot</label>
+          <select id="time">
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:00">13:30</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!--
+  <section id="reviews" class="reviews">
+    <h2>Recensies</h2>
+    <p>"Geweldige service en ontspannende sfeer!"</p>
+  </section>
+-->
+  <section id="reviews" class="feedback-section">
+    <h2 class="section-title">Customer Feedback</h2>
+    <div class="feedback-container" id="reviews-container" lang="auto">
+      <div class="feedback-card">
+        <p class="feedback-message">"Absolutely loved the relaxing massage! The atmosphere is amazing, and the therapists are professional."</p>
+        <p class="feedback-author"> Sophie</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"Great experience with the sports massage. Felt rejuvenated and ready for my next marathon!"</p>
+        <p class="feedback-author"> Mark</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"I appreciate the personalized service. The aromatherapy session was blissful."</p>
+        <p class="feedback-author"> Eva</p>
+      </div>
+    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF2p_NNbKsbsZSOyFNTisykHJG_vW0RyW0oUBRAy3iKYsWqg/viewform?usp=header" target="_blank">Leave a feedback</a>
+  </section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
+    <div class="contact-details">
+      <p><strong>Address:</strong> 123 Relax Street, Rotterdam</p>
+      <p><strong>Phone:</strong> <a href="tel:+31123456789"><i class="fas fa-phone-alt"></i> +31 12 345 6789</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>
+      <p><strong>Find us on Google Maps:</strong> 
+        <a href="https://goo.gl/maps/abcd1234" target="_blank"><i class="fas fa-map-marker-alt"></i> View Location</a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/www.Relaxlife/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="https://wa.me/31123456789" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: </a>
+        <!--<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>-->
+        <!--<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <p>© 2024 Relaxdam Massagesalon.</p>
+  </footer> -->
+
+</body>
+</html>

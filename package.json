@@ -1,0 +1,14 @@
+{
+  "name": "relaxdam.nl",
+  "version": "1.0.0",
+  "description": "покупка домена через\r https://www.transip.nl/winkelwagen/bedankt/prm/2024-222730",
+  "main": "booking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

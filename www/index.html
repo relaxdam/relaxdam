@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relaxdam Massagesalon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/booking.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div>
+      <button 
+        class="language-button" 
+        aria-controls="languagePopover" 
+        aria-expanded="false" 
+        popovertarget="languagePopover"
+        title="Selecteer een taal">
+        🌐 Nederlands
+      </button>
+      <div id="languagePopover" popover>
+        <a href="/en" title="Engels">English</a>
+        <a href="/" title="Nederlands">Nederlands</a>
+        <a href="/uk" title="Oekraïens">Українська</a>
+      </div>
+      <span class="logo">Relaxdam</span>
+    </div>
+    <div class="menu">      
+      <a href="#over-ons">Over ons</a>
+      <a href="#diensten">Diensten</a>
+      <a href="#prijslist">Prijslist</a>
+      <a href="#recensies">Recensies</a>
+      <a href="#contact">Contact</a>
+      <a href="#boek-nu" class="btn">Boek Nu</a>
+    </div>
+    <span class="hamburger" onclick="toggleSideNav()">☰</span>
+  </div>
+
+  <div class="side-nav" id="sideNav" onclick="toggleSideNav()">
+    <a href="#diensten">Diensten</a>
+    <a href="#prijslist">Prijslist</a>
+    <a href="#recensies">Recensies</a>
+    <a href="#contact">Contact</a>
+    <a href="#boek-nu" class="btn">Boek Nu</a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" width="100%" height="100%" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0084A1;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      
+      <rect x="0" y="0" width="1440" height="320" fill="url(#skyGradient)" />
+      <path fill="#0084A1" d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,213.3C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      <path fill="#F4E3C7" d="M0,320L80,300C160,280,320,240,480,224C640,208,800,224,960,240C1120,256,1280,272,1360,288L1440,304L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+    <img src="/palm.svg" style="    left: 0;
+    left: -50px;
+    height: 90vh;
+    right: auto;
+    width: auto;
+    top: auto;
+    bottom: -5vh;" />
+  <div class="overlay"></div>
+
+>
+
+    <div class="content">
+      <h1>Relaxdam Massagesalon</h1>
+      <p style="margin: auto;max-width:32em">Wij bieden een verscheidenheid aan oliemassages in een warme en uitnodigende sfeer</p>
+    </div>
+  </header>
+  
+  <section id="over-ons" style="padding: 4rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+    <!-- Image on the left -->
+
+ <div style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center; height: 100%;">
+    <img src="/images/pexels-anete-lusina-5240637.jpg" alt="Relaxdam Massage Salon" style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
+  </div>
+    <!-- Text on the right -->
+    <div style="flex: 1; max-width: 50%; margin-left: 2rem;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Over ons</h2>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Bij Relaxdam Massage Salon bieden we een rustige oase waar je kunt ontsnappen aan dagelijkse stress en tot rust kunt komen. Ons behandelingsmenu omvat een reeks massages, van klassieke ontspanning- en sportmassages tot verjongende aromatherapie. Elke therapie wordt uitgevoerd met hoogwaardige oliën in een warme, huiselijke sfeer.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Onze deskundige therapeuten zorgen ervoor dat elke sessie je ontspannen en verfrist achterlaat, zodat je gemakkelijk de kalmerende voordelen van massage therapie kunt ervaren.
+      </p>
+      <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
+        Kom en ontdek een moment van rust bij Relaxdam – waar ontspanning en welzijn samenkomen.
+      </p>
+    </div>
+  </section>
+  
+  
+  <section id="diensten" style="background-color: #f4f4f4; padding: 40px 0;">
+    <div class="container">      
+      <h2 class="section-title">Onze Diensten</h2>
+      <div class="services-boxes">
+        <div class="service-box">
+          <h3>Classic Massage</h3>
+          <p>Ervaar een traditionele massage die is ontworpen om spierpijn te verlichten, de circulatie te verbeteren en algehele ontspanning te bevorderen. Ideaal voor wie verlichting zoekt van dagelijkse stress.</p>
+        </div>
+        <div class="service-box">
+          <h3>Gezichts Massage</h3>
+          <p>Een kalmerende gezichts massage die helpt spanning te verminderen, de bloedcirculatie te bevorderen en de huid te verjongen. Perfect voor wie het gezicht en de geest wil ontspannen en verfrissen.</p>
+        </div>
+        <div class="service-box">
+          <h3>Ontspanningsmassage</h3>
+          <p>Onze Ontspanningsmassage richt zich op diepe ontspanning, helpt stress los te laten en bevordert mentale helderheid. De perfecte keuze om tot rust te komen na een drukke dag.</p>
+        </div>
+        <div class="service-box">
+          <h3>Voetmassage</h3>
+          <p>Een therapeutische voetmassage die is ontworpen om spanning te verlichten en de circulatie te verbeteren. Perfect voor wie de hele dag op hun voeten staat of gewoon op zoek is naar een ontspannende ontsnapping.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Parallax Section -->
+  <div class="parallax"></div>
+
+<section id="prijslist">
+  <div class="container">
+    <h2 class="section-title">Prijslist</h2>
+    <div class="pricing-grid">
+      <div class="pricing-row">
+        <span class="service-name">Classic Massage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Gezichts Massage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Ontspanningsmassage</span>
+        <span class="service-price">60 EUR</span>
+      </div>
+      <div class="pricing-row">
+        <span class="service-name">Voetmassage</span>
+        <span class="service-price">50 EUR</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="boek-nu">
+  <div class="container form-container">
+    <h2 class="section-title">Boek Nu</h2>
+    
+    <form target="_blank" id="bookingForm">
+      <div class="form-group">
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name" placeholder="Uw naam" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Uw emailadres" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefoon</label>
+        <input type="tel" id="phone" name="phone" placeholder="06......." required>
+      </div>
+      <div class="date-time-group">
+        <div class="form-group">
+          <label for="date">Voorkeursdatum</label>
+          <input type="date" id="date" name="date" value="2024-12-02" required>
+        </div>
+        <div class="form-group">
+          <label>Tijdslot</label>
+          <select id="time">
+            <option value="10:00">10:00</option>
+            <option value="10:30">10:30</option>
+            <option value="11:00">11:00</option>
+            <option value="11:30">11:30</option>
+            <option value="12:00">12:00</option>
+            <option value="12:30">12:30</option>
+            <option value="13:00">13:00</option>
+            <option value="13:00">13:30</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn">Verzend</button>
+    </form>
+  </div>
+</section>
+
+<!--
+  <section id="reviews" class="reviews">
+    <h2>Recensies</h2>
+    <p>"Geweldige service en ontspannende sfeer!"</p>
+  </section>
+-->
+  <section id="recensies" class="feedback-section">
+    <h2 class="section-title">Feedback van klanten</h2>
+    <div class="feedback-container" id="reviews-container" lang="auto">
+      <div class="feedback-card">
+        <p class="feedback-message">"Absolutely loved the relaxing massage! The atmosphere is amazing, and the therapists are professional."</p>
+        <p class="feedback-author"> Sophie</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"Great experience with the sports massage. Felt rejuvenated and ready for my next marathon!"</p>
+        <p class="feedback-author"> Mark</p>
+      </div>
+      <div class="feedback-card">
+        <p class="feedback-message">"I appreciate the personalized service. The aromatherapy session was blissful."</p>
+        <p class="feedback-author"> Eva</p>
+      </div>
+    </div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF2p_NNbKsbsZSOyFNTisykHJG_vW0RyW0oUBRAy3iKYsWqg/viewform?usp=header" target="_blank">Laat een Beoordeling Achter</a>
+  </section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Neem contact met ons op</h2>
+  <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
+    <div class="contact-details">
+      <p><strong>Adres:</strong> 123 Relax Street, Rotterdam</p>
+      <p><strong>Telefoon:</strong> <a href="tel:+31123456789"><i class="fas fa-phone-alt"></i> +31 12 345 6789</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>
+      <p><strong>Vind ons op Google Maps:</strong> 
+        <a href="https://goo.gl/maps/abcd1234" target="_blank"><i class="fas fa-map-marker-alt"></i> Bekijk Locatie</a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/www.Relaxlife/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        <a href="https://wa.me/31123456789" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: </a>
+        <!--<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>-->
+        <!--<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <!-- <footer>
+    <p>© 2024 Relaxdam Massagesalon.</p>
+  </footer> -->
+
+</body>
+</html>

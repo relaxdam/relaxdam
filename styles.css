@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  margin: 0 0 1rem;
+  color: #2a6655;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a6655;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #d0f0e8;
+}
+
+.book-now {
+  background: #d0f0e8;
+  color: #2a6655;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.book-now:hover {
+  background: white;
+  color: #2a6655;
+}
+
+/* Hamburger Menu (Mobile) */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background: white;
+}
+
+/* Hero Section */
+.hero {
+  height: 70vh;
+  background: url('https://source.unsplash.com/1600x900/?spa,massage') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 2rem;
+  margin: 2rem auto;
+  max-width: 1000px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section.alternate {
+  background: #f0f8f5;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.parallax-image {
+  height: 300px;
+  background: url('https://source.unsplash.com/1600x900/?relaxation') no-repeat center center/cover;
+  background-attachment: fixed;
+  margin: 2rem 0;
+  border-radius: 12px;
+}
+
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2a6655;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#backToTop.visible {
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  background: #2a6655;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    background: #2a6655;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar ul.open {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+}
