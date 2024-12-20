@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{lang}}">
+<html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{title}}</title>
-  <meta name="description" content="{{description}}" />
+  <title>Salon masażu Relaxdam</title>
+  <meta name="description" content="Oferujemy masaże premium, w tym klasyczny, twarzy, relaksacyjny oraz stóp w Rotterdamie. Zarezerwuj swój seans już teraz!" />
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />-->
   <link rel="stylesheet" href="/styles.css" />
   <script src="/booking.js"></script>
@@ -17,35 +17,35 @@
         aria-controls="languagePopover" 
         aria-expanded="false" 
         popovertarget="languagePopover"
-        title="{{languageSelectorTitle}}">
-        🌐 {{currentLanguage}}
+        title="Wybierz język">
+        🌐 Polski
       </button>
       <div id="languagePopover" popover>
-        <a href="/en" title="{{titleEnglish}}">English</a>
-        <a href="/" title="{{titleDutch}}">Nederlands</a>
-        <a href="/uk" title="{{titleUkrainian}}">Українська</a>
-        <a href="/ru" title="{{titleRussian}}">Русский</a>
-        <a href="/pl" title="{{titlePolish}}">Polski</a>
+        <a href="/en" title="Angielski">English</a>
+        <a href="/" title="Niderlandzki">Nederlands</a>
+        <a href="/uk" title="Ukraiński">Українська</a>
+        <a href="/ru" title="">Русский</a>
+        <a href="/pl" title="">Polski</a>
       </div>
-      <span class="logo">{{logo}}</span>
+      <span class="logo">Relaxdam</span>
     </div>
     <div class="menu">      
-      <a href="#{{aboutUsId}}">{{aboutUs}}</a>
-      <a href="#{{servicesId}}">{{services}}</a>
-      <a href="#{{pricelistId}}">{{pricelist}}</a>
-      <a href="#{{reviewsId}}">{{reviews}}</a>
-      <a href="#{{contactId}}">{{contact}}</a>
-      <a href="#{{bookNowId}}" class="btn">{{bookNow}}</a>
+      <a href="#o-nas">O nas</a>
+      <a href="#uslugi">Usługi</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#opinie">Opinie</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#zarezerwuj" class="btn">Zarezerwuj</a>
     </div>
-    <button class="hamburger" popovertarget="sideNav" title="{{navigation}}">☰</button>
+    <button class="hamburger" popovertarget="sideNav" title="">☰</button>
   </div>
 
   <div class="side-nav" id="sideNav" popover>
-    <a href="#{{servicesId}}">{{services}}</a>
-    <a href="#{{pricelistId}}">{{pricelist}}</a>
-    <a href="#{{reviewsId}}">{{reviews}}</a>
-    <a href="#{{contactId}}">{{contact}}</a>
-    <a href="#{{bookNowId}}" class="btn">{{bookNow}}</a>
+    <a href="#uslugi">Usługi</a>
+    <a href="#cennik">Cennik</a>
+    <a href="#opinie">Opinie</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#zarezerwuj" class="btn">Zarezerwuj</a>
   </div>
 
   <!-- Header -->
@@ -74,12 +74,12 @@
 >
 
     <div class="content">
-      <h1>{{title}}</h1>
-      <p style="margin: auto;max-width:32em">{{header}}</p>
+      <h1>Salon masażu Relaxdam</h1>
+      <p style="margin: auto;max-width:32em">Oferujemy różnorodne masaże olejkowe w ciepłej i przyjaznej atmosferze</p>
     </div>
   </header>
   
-  <section id="{{aboutUsId}}" class="about-us">
+  <section id="o-nas" class="about-us">
     <!-- Image on the left -->
 
  <div class="about-us-img">
@@ -90,45 +90,45 @@
          sizes="(max-width: 600px) 480px, 
                 (max-width: 1200px) 768px, 
                 1200px" 
-         alt="{{headerImgAlt}}"
+         alt="Ręce wykonujące relaksujący masaż pleców w ciepłej atmosferze z delikatnym, rozproszonym światłem w tle."
          loading="lazy"
          style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
   </div>
     <!-- Text on the right -->
     <div style="flex: 1; margin-left: 2rem;  min-width: 20ch;">
-      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">{{aboutUs}}</h2>
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">O nas</h2>
       <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
-        {{info1}}
+        W salonie masażu Relaxdam zapewniamy spokojną przystań, w której można uwolnić się od codziennego stresu i odprężyć. Nasze menu zabiegów obejmuje szeroki wachlarz masaży, od klasycznego relaksacyjnego i sportowego, po rewitalizującą aromaterapię. Każdy zabieg wykonywany jest przy użyciu wysokiej jakości olejków w ciepłej, domowej atmosferze.
       </p>
       <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
-        {{info2}}
+        Nasi doświadczeni terapeuci dbają o to, aby każda sesja pozostawiała Cię zrelaksowanym i odświeżonym, umożliwiając pełne korzystanie z kojących zalet terapii masażu.
       </p>
       <p style="font-size: 1.2rem; line-height: 1.6; color: #333;">
-        {{info3}}
+        Przyjdź i odkryj chwilę spokoju w Relaxdam – miejscu, gdzie relaks spotyka się z dobrostanem.
       </p>
     </div>
   </section>
   
   
-  <section id="{{servicesId}}" style="background-color: #f4f4f4; padding: 40px 0;">
+  <section id="uslugi" style="background-color: #f4f4f4; padding: 40px 0;">
     <div class="container">      
-      <h2 class="section-title">{{servicesTitle}}</h2>
+      <h2 class="section-title">Nasze usługi</h2>
       <div class="services-boxes">
         <div class="service-box">
-          <h3>{{classicMassageTitle}}</h3>
-          <p>{{classicMassageDescription}}</p>
+          <h3>Klasyczny masaż</h3>
+          <p>Doświadcz tradycyjnego masażu, który pomaga złagodzić napięcie mięśni, poprawić krążenie i zapewnić ogólne odprężenie. Idealny wybór dla tych, którzy chcą uwolnić się od codziennego stresu.</p>
         </div>
         <div class="service-box">
-          <h3>{{facialMassageTitle}}</h3>
-          <p>{{facialMassageDescription}}</p>
+          <h3>Masaż twarzy</h3>
+          <p>Kojący masaż twarzy, który pomaga zmniejszyć napięcie, poprawić krążenie krwi i odmłodzić skórę. Idealny dla osób szukających relaksu i odświeżenia dla twarzy i umysłu.</p>
         </div>
         <div class="service-box">
-          <h3>{{relaxationMassageTitle}}</h3>
-          <p>{{relaxationMassageDescription}}</p>
+          <h3>Masaż relaksacyjny</h3>
+          <p>Nasz masaż relaksacyjny koncentruje się na głębokim odprężeniu, pomagając uwolnić stres i poprawić jasność umysłu. Doskonały wybór na zakończenie intensywnego dnia.</p>
         </div>
         <div class="service-box">
-          <h3>{{footMassageTitle}}</h3>
-          <p>{{footMassageDescription}}</p>
+          <h3>Masaż stóp</h3>
+          <p>Terapia masażu stóp, która łagodzi napięcie i poprawia krążenie. Idealna dla osób spędzających cały dzień na nogach lub każdego, kto szuka relaksującej ucieczki.</p>
         </div>
       </div>
     </div>
@@ -137,54 +137,54 @@
    <!-- Parallax Section -->
   <div class="parallax"></div>
 
-<section id="{{pricelistId}}">
+<section id="cennik">
   <div class="container">
-    <h2 class="section-title">{{pricelistTitle}}</h2>
+    <h2 class="section-title">Cennik</h2>
     <div class="pricing-grid">
       <div class="pricing-row">
-        <span class="service-name">{{classicMassageTitle}}</span>
-        <span class="service-price">{{classicMassagePrice}}</span>
+        <span class="service-name">Klasyczny masaż</span>
+        <span class="service-price">60 EUR</span>
       </div>
       <div class="pricing-row">
-        <span class="service-name">{{facialMassageTitle}}</span>
-        <span class="service-price">{{facialMassagePrice}}</span>
+        <span class="service-name">Masaż twarzy</span>
+        <span class="service-price">60 EUR</span>
       </div>
       <div class="pricing-row">
-        <span class="service-name">{{relaxationMassageTitle}}</span>
-        <span class="service-price">{{relaxationMassagePrice}}</span>
+        <span class="service-name">Masaż relaksacyjny</span>
+        <span class="service-price">60 EUR</span>
       </div>
       <div class="pricing-row">
-        <span class="service-name">{{footMassageTitle}}</span>
-        <span class="service-price">{{footMassagePrice}}</span>
+        <span class="service-name">Masaż stóp</span>
+        <span class="service-price">50 EUR</span>
       </div>
     </div>
   </div>
 </section>
 
-<section id="{{bookNowId}}">
+<section id="zarezerwuj">
   <div class="container form-container">
-    <h2 class="section-title">{{bookNow}}</h2>
+    <h2 class="section-title">Zarezerwuj</h2>
     
     <form target="_blank" id="bookingForm">
       <div class="form-group">
-        <label for="name">{{nameLabel}}</label>
-        <input type="text" id="name" name="name" autocomplete="given-name" placeholder="{{namePlaceholder}}" required>
+        <label for="name">Imię</label>
+        <input type="text" id="name" name="name" autocomplete="given-name" placeholder="Twoje imię" required>
       </div>
       <div class="form-group">
-        <label for="email">{{emailLabel}}</label>
-        <input type="email" id="email" name="email" autocomplete="email" placeholder="{{emailPlaceholder}}" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="Twój adres email" required>
       </div>
       <div class="form-group">
-        <label for="phone">{{phoneLabel}}</label>
-        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="{{phonePlaceholder}}" required>
+        <label for="phone">Telefon</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="06......." required>
       </div>
       <div class="date-time-group">
         <div class="form-group">
-          <label for="date">{{preferredDateLabel}}</label>
+          <label for="date">Preferowana data</label>
           <input type="date" id="date" name="date" value="2024-12-02" required>
         </div>
         <div class="form-group">
-          <label for="time">{{timeSlotLabel}}</label>
+          <label for="time">Godzina</label>
           <select id="time">
             <option value="10:00">10:00</option>
             <option value="10:30">10:30</option>
@@ -197,13 +197,13 @@
           </select>
         </div>
       </div>
-      <button type="submit" class="btn">{{submitButtonText}}</button>
+      <button type="submit" class="btn">Wyślij</button>
     </form>
   </div>
 </section>
 
-<section id="{{reviewsId}}" class="feedback-section">
-  <h2 class="section-title">{{customerFeedback}}</h2>
+<section id="opinie" class="feedback-section">
+  <h2 class="section-title">Opinie klientów</h2>
   <div class="feedback-container" id="reviews-container" lang="">
     <div class="feedback-card">
       <p class="feedback-message">"Absolutely loved the relaxing massage! The atmosphere is amazing, and the therapists are professional."</p>
@@ -218,22 +218,22 @@
       <p class="feedback-author"> Eva</p>
     </div>
   </div>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF2p_NNbKsbsZSOyFNTisykHJG_vW0RyW0oUBRAy3iKYsWqg/viewform?usp=header" target="_blank">{{leaveAFeedback}}</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF2p_NNbKsbsZSOyFNTisykHJG_vW0RyW0oUBRAy3iKYsWqg/viewform?usp=header" target="_blank">Zostaw opinię</a>
 </section>
 
-<section id="{{contactId}}" class="contact-section">
-  <h2 class="section-title">{{contactUs}}</h2>
+<section id="kontakt" class="contact-section">
+  <h2 class="section-title">Skontaktuj się z nami</h2>
   <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
     <div class="contact-details">
-      <!--<p><strong>{{addressLabel}}:</strong> 123 Relax Street, Rotterdam</p>-->
-      <p><strong>{{phoneLabel}}:</strong> <a href="tel:{{phone_tel}}">📞 {{phone}}</a></p>
-      <!--<p><strong>{{emailLabel}}:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>-->
-      <!--<p><strong>{{googleMapsLabel}}:</strong> 
-        <a href="https://goo.gl/maps/abcd1234" target="_blank"><i class="fas fa-map-marker-alt"></i> {{viewLocation}}</a>
+      <!--<p><strong>Adres:</strong> 123 Relax Street, Rotterdam</p>-->
+      <p><strong>Telefon:</strong> <a href="tel:+31682332281">📞 +31 6 82332281</a></p>
+      <!--<p><strong>Email:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>-->
+      <!--<p><strong>Znajdź nas na Google Maps:</strong> 
+        <a href="https://goo.gl/maps/abcd1234" target="_blank"><i class="fas fa-map-marker-alt"></i> Zobacz lokalizację</a>
       </p>-->
       <div class="social-links">
         <a href="https://www.facebook.com/www.Relaxlife/" target="_blank"><svg style="width: 1em;" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg> Facebook</a>
-        <a href="https://wa.me/{{phone_tel}}" target="_blank"><svg style="width: 1em"; role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> WhatsApp</a>
+        <a href="https://wa.me/+31682332281" target="_blank"><svg style="width: 1em"; role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg> WhatsApp</a>
         <!--<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>-->
         <!--<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>-->
       </div>
@@ -250,10 +250,10 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "{{title}}",
+  "name": "Salon masażu Relaxdam",
   "image": "/images/300786356_382152927412830_8296848390070825764_n.jpg",
   "url": "https://relaxdam.nl",
-  "telephone": "{{phone}}",
+  "telephone": "+31 6 82332281",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
