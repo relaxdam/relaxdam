@@ -166,15 +166,15 @@
     <form target="_blank" id="bookingForm">
       <div class="form-group">
         <label for="name">{{nameLabel}}</label>
-        <input type="text" id="name" name="name" placeholder="{{namePlaceholder}}" required>
+        <input type="text" id="name" name="name" autocomplete="given-name" placeholder="{{namePlaceholder}}" required>
       </div>
       <div class="form-group">
         <label for="email">{{emailLabel}}</label>
-        <input type="email" id="email" name="email" placeholder="{{emailPlaceholder}}" required>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="{{emailPlaceholder}}" required>
       </div>
       <div class="form-group">
         <label for="phone">{{phoneLabel}}</label>
-        <input type="tel" id="phone" name="phone" placeholder="{{phonePlaceholder}}" required>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="{{phonePlaceholder}}" required>
       </div>
       <div class="date-time-group">
         <div class="form-group">
