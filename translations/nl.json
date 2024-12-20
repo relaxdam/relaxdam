@@ -2,12 +2,15 @@
   "lang": "nl",
   "logo": "Relaxdam",
   "title": "Relaxdam Massagesalon",
+  "description": "Wij bieden premium massages, inclusief klassieke, gezichts-, ontspannings- en voetmassages in Rotterdam. Boek nu uw sessie!",
+  "headerImgAlt": "Handen die een ontspannende rugmassage geven in een warme sfeer met zachte, gloeiende lichten op de achtergrond.",
+  "parallaxImgAlt": "Ontspannende massage",
   "header": "Wij bieden een verscheidenheid aan oliemassages in een warme en uitnodigende sfeer",
   "info1": "Bij Relaxdam Massage Salon bieden we een rustige oase waar je kunt ontsnappen aan dagelijkse stress en tot rust kunt komen. Ons behandelingsmenu omvat een reeks massages, van klassieke ontspanning- en sportmassages tot verjongende aromatherapie. Elke therapie wordt uitgevoerd met hoogwaardige oliën in een warme, huiselijke sfeer.",
   "info2": "Onze deskundige therapeuten zorgen ervoor dat elke sessie je ontspannen en verfrist achterlaat, zodat je gemakkelijk de kalmerende voordelen van massage therapie kunt ervaren.",
   "info3": "Kom en ontdek een moment van rust bij Relaxdam – waar ontspanning en welzijn samenkomen.",
   "servicesTitle": "Onze Diensten",
-  "classicMassageTitle": "Classic Massage",
+  "classicMassageTitle": "Klassieke Massage",
   "classicMassageDescription": "Ervaar een traditionele massage die is ontworpen om spierpijn te verlichten, de circulatie te verbeteren en algehele ontspanning te bevorderen. Ideaal voor wie verlichting zoekt van dagelijkse stress.",
   "facialMassageTitle": "Gezichts Massage",
   "facialMassageDescription": "Een kalmerende gezichts massage die helpt spanning te verminderen, de bloedcirculatie te bevorderen en de huid te verjongen. Perfect voor wie het gezicht en de geest wil ontspannen en verfrissen.",
@@ -15,8 +18,8 @@
   "relaxationMassageDescription": "Onze Ontspanningsmassage richt zich op diepe ontspanning, helpt stress los te laten en bevordert mentale helderheid. De perfecte keuze om tot rust te komen na een drukke dag.",
   "footMassageTitle": "Voetmassage",
   "footMassageDescription": "Een therapeutische voetmassage die is ontworpen om spanning te verlichten en de circulatie te verbeteren. Perfect voor wie de hele dag op hun voeten staat of gewoon op zoek is naar een ontspannende ontsnapping.",
-
-  "pricelistTitle": "Prijslist",
+  
+  "pricelistTitle": "Prijslijst",
   "classicMassagePrice": "60 EUR",
   "facialMassagePrice": "60 EUR",
   "relaxationMassagePrice": "60 EUR",
@@ -30,8 +33,8 @@
   "phonePlaceholder": "06.......",
   "preferredDateLabel": "Voorkeursdatum",
   "timeSlotLabel": "Tijdslot",
-  "submitButtonText": "Verzend",
-
+  "submitButtonText": "Verzenden",
+  
   "customerFeedback": "Feedback van klanten",
   "leaveAFeedback": "Laat een Beoordeling Achter",
 
@@ -41,7 +44,7 @@
   "emailLabel": "E-mail",
   "googleMapsLabel": "Vind ons op Google Maps",
   "viewLocation": "Bekijk Locatie",
-
+  
   "languageSelectorTitle": "Selecteer een taal",
   "currentLanguage": "Nederlands",
   "titleEnglish": "Engels",
@@ -52,15 +55,15 @@
   "aboutUs": "Over ons",
   "servicesId": "diensten",
   "services": "Diensten",
-  "pricelistId": "prijslist",
-  "pricelist": "Prijslist",
+  "pricelistId": "prijslijst",
+  "pricelist": "Prijslijst",
   "reviewsId": "recensies",
   "reviews": "Recensies",
   "contactId": "contact",
   "contact": "Contact",
   "bookNowId": "boek-nu",
   "bookNow": "Boek Nu",
-
+  
   "phone": "+31 6 82332281",
   "phone_tel": "+31682332281"
 }

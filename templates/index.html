@@ -60,7 +60,7 @@
       <path fill="#0084A1" d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,213.3C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
       <path fill="#F4E3C7" d="M0,320L80,300C160,280,320,240,480,224C640,208,800,224,960,240C1120,256,1280,272,1360,288L1440,304L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
     </svg>
-    <img src="/palm.svg" style="    left: 0;
+    <img src="/palm.svg" style="left: 0;
     left: -50px;
     height: 90vh;
     right: auto;
@@ -81,7 +81,16 @@
     <!-- Image on the left -->
 
  <div class="about-us-img">
-    <img src="/images/pexels-anete-lusina-5240637.jpg" alt="Relaxdam Massage Salon" style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
+    <img src="/images/pexels-anete-lusina-5240637-480.jpg" 
+         srcset="/images/pexels-anete-lusina-5240637-480.jpg 480w, 
+                    /images/pexels-anete-lusina-5240637-768.jpg 768w, 
+                    /images/pexels-anete-lusina-5240637-1200.jpg 1200w" 
+         sizes="(max-width: 600px) 480px, 
+                (max-width: 1200px) 768px, 
+                1200px" 
+         alt="{{headerImgAlt}}"
+         loading="lazy"
+         style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
   </div>
     <!-- Text on the right -->
     <div style="flex: 1; max-width: 50%; margin-left: 2rem;  min-width: 20ch;">
@@ -124,7 +133,7 @@
   </section>
   
    <!-- Parallax Section -->
-  <div class="parallax"></div>
+  <div class="parallax" aria-label="{{parallaxImgAlt}}" role="image"></div>
 
 <section id="{{pricelistId}}">
   <div class="container">

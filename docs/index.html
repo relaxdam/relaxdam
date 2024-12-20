@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Relaxdam Massagesalon</title>
-  <meta name="description" content="" />
+  <meta name="description" content="Wij bieden premium massages, inclusief klassieke, gezichts-, ontspannings- en voetmassages in Rotterdam. Boek nu uw sessie!" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="/styles.css" />
   <script src="/booking.js"></script>
@@ -30,7 +30,7 @@
     <div class="menu">      
       <a href="#over-ons">Over ons</a>
       <a href="#diensten">Diensten</a>
-      <a href="#prijslist">Prijslist</a>
+      <a href="#prijslijst">Prijslijst</a>
       <a href="#recensies">Recensies</a>
       <a href="#contact">Contact</a>
       <a href="#boek-nu" class="btn">Boek Nu</a>
@@ -40,7 +40,7 @@
 
   <div class="side-nav" id="sideNav" popover>
     <a href="#diensten">Diensten</a>
-    <a href="#prijslist">Prijslist</a>
+    <a href="#prijslijst">Prijslijst</a>
     <a href="#recensies">Recensies</a>
     <a href="#contact">Contact</a>
     <a href="#boek-nu" class="btn">Boek Nu</a>
@@ -60,7 +60,7 @@
       <path fill="#0084A1" d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,213.3C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
       <path fill="#F4E3C7" d="M0,320L80,300C160,280,320,240,480,224C640,208,800,224,960,240C1120,256,1280,272,1360,288L1440,304L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
     </svg>
-    <img src="/palm.svg" style="    left: 0;
+    <img src="/palm.svg" style="left: 0;
     left: -50px;
     height: 90vh;
     right: auto;
@@ -81,7 +81,16 @@
     <!-- Image on the left -->
 
  <div class="about-us-img">
-    <img src="/images/pexels-anete-lusina-5240637.jpg" alt="Relaxdam Massage Salon" style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
+    <img src="/images/pexels-anete-lusina-5240637-480.jpg" 
+         srcset="/images/pexels-anete-lusina-5240637-480.jpg 480w, 
+                    /images/pexels-anete-lusina-5240637-768.jpg 768w, 
+                    /images/pexels-anete-lusina-5240637-1200.jpg 1200w" 
+         sizes="(max-width: 600px) 480px, 
+                (max-width: 1200px) 768px, 
+                1200px" 
+         alt="Handen die een ontspannende rugmassage geven in een warme sfeer met zachte, gloeiende lichten op de achtergrond."
+         loading="lazy"
+         style="max-height: 400px; width: auto; height: auto; border-radius: 10px;">
   </div>
     <!-- Text on the right -->
     <div style="flex: 1; max-width: 50%; margin-left: 2rem;  min-width: 20ch;">
@@ -104,7 +113,7 @@
       <h2 class="section-title">Onze Diensten</h2>
       <div class="services-boxes">
         <div class="service-box">
-          <h3>Classic Massage</h3>
+          <h3>Klassieke Massage</h3>
           <p>Ervaar een traditionele massage die is ontworpen om spierpijn te verlichten, de circulatie te verbeteren en algehele ontspanning te bevorderen. Ideaal voor wie verlichting zoekt van dagelijkse stress.</p>
         </div>
         <div class="service-box">
@@ -124,14 +133,14 @@
   </section>
   
    <!-- Parallax Section -->
-  <div class="parallax"></div>
+  <div class="parallax" aria-label="Ontspannende massage" role="image"></div>
 
-<section id="prijslist">
+<section id="prijslijst">
   <div class="container">
-    <h2 class="section-title">Prijslist</h2>
+    <h2 class="section-title">Prijslijst</h2>
     <div class="pricing-grid">
       <div class="pricing-row">
-        <span class="service-name">Classic Massage</span>
+        <span class="service-name">Klassieke Massage</span>
         <span class="service-price">60 EUR</span>
       </div>
       <div class="pricing-row">
@@ -186,7 +195,7 @@
           </select>
         </div>
       </div>
-      <button type="submit" class="btn">Verzend</button>
+      <button type="submit" class="btn">Verzenden</button>
     </form>
   </div>
 </section>

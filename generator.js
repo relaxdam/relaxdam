@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const sharp = require('sharp');
 
 // Paths
 const templatesDir = path.join(__dirname, 'templates');
@@ -45,3 +46,14 @@ function substitutePlaceholders(template, values) {
 
   console.log('Site generation complete!');
 })();
+
+
+const sizes = [480, 768, 1200];
+sizes.forEach(size => {
+    sharp('./docs/images/pexels-anete-lusina-5240637.jpg')
+        .resize(size)
+        .toFile(`./docs/images/pexels-anete-lusina-5240637-${size}.jpg`);
+    sharp('./docs/images/pexels-elly-fairytale-3865802.jpg')
+        .resize(size)
+        .toFile(`./docs/images/pexels-elly-fairytale-3865802-${size}.jpg`);
+});

@@ -273,9 +273,25 @@ img:hover {
       background-repeat: no-repeat;
       background-size: cover;
     }
-    
-    
-    
+
+    @media (max-width: 1200px) {
+      .parallax {
+        background-image: url('./images/pexels-elly-fairytale-3865802-1200.jpg');
+      }
+    }
+
+    @media (max-width: 768px) {
+      .parallax {
+        background-image: url('./images/pexels-elly-fairytale-3865802-768.jpg');
+      }
+    }
+
+    @media (max-width: 480px) {
+      .parallax {
+        background-image: url('./images/pexels-elly-fairytale-3865802-480.jpg');
+      }
+    }
+
 .pricing-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
