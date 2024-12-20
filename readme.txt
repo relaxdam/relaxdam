@@ -1,9 +1,5 @@
 
 
-покупка домена через
-https://www.transip.nl/winkelwagen/bedankt/prm/2024-222730
-
-на lesiaengineer@gmail.com
 
 relaxdam.nl + reladdam.online
 
