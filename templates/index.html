@@ -226,7 +226,7 @@
   <h2 class="section-title">{{contactUs}}</h2>
   <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
     <div class="contact-details">
-      <!--<p><strong>{{addressLabel}}:</strong> 123 Relax Street, Rotterdam</p>-->
+      <p><strong>{{addressLabel}}:</strong> <!--777 Relaxstraat, -->Rotterdam</p>
       <p><strong>{{phoneLabel}}:</strong> <a href="tel:{{phone_tel}}">📞 {{phone}}</a></p>
       <!--<p><strong>{{emailLabel}}:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>-->
       <!--<p><strong>{{googleMapsLabel}}:</strong> 
@@ -255,6 +255,11 @@
   "image": "/images/300786356_382152927412830_8296848390070825764_n.jpg",
   "url": "https://relaxdam.nl",
   "telephone": "{{phone}}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Rotterdam",
+    "addressCountry": "NL"
+  },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
