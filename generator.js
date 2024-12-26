@@ -15,9 +15,52 @@ const translations = fs.readdirSync(translationsDir).reduce((acc, file) => {
   return acc;
 }, {});
 
+
+function generateArticles(values) {
+  if (!values.blog) {
+    return '';
+  }
+  function generateArticle(article) {
+    var s = '';
+    s += '<article>';
+    s += '<h2>' + article.title + '</h2>';
+    s += '<p>' + article.content + '</p>';
+    for (let section of article.sections) {
+      s += '<h3>' + section.heading + '</h3>';
+      s += '<ul>';
+      for (let point of section.points) {
+        s += '<li>' + point + '</li>';
+      }
+      s += '</ul>';
+    }
+    s += '<p>' + article.closing + '</p>';
+    s += '</article>';
+    return s;
+  }
+  var s = '';
+  for (let article of values.blog.articles) {
+    s += generateArticle(article);
+  }
+  return s;
+}
+
 // Helper function to replace placeholders in a template
-function substitutePlaceholders(template, values) {
-  return template.replace(/\{\{(.*?)\}\}/g, (_, key) => values[key.trim()] || '');
+function substitutePlaceholders(template, values, lang) {
+  return template.replace(/\{\{(.*?)\}\}/g, function (_, key) {
+    if (key === 'articles') {
+      return generateArticles(values);
+    }
+    let o = values;
+    for (let k of key.trim().split('.')) {
+      o = o || {};
+      o = o[k];
+    }
+    let value = o || '';
+    if (value === '') {
+      console.warn('missing key: ' + key + ' ' + lang);
+    }
+    return value;
+  });
 }
 
 // Generate files
@@ -37,7 +80,7 @@ function substitutePlaceholders(template, values) {
 
         // Render template
         const templateContent = fs.readFileSync(templatePath, 'utf-8');
-        const renderedContent = substitutePlaceholders(templateContent, strings);
+        const renderedContent = substitutePlaceholders(templateContent, strings, lang);
         fs.writeFileSync(outputFilePath, renderedContent);
         console.log(`Generated: ${outputFilePath}`);
       }

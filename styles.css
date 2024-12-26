@@ -200,3 +200,8 @@ footer p {
     display: flex;
   }
 }
+
+
+address {
+  font-style: normal;
+}

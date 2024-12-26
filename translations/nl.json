@@ -1,6 +1,7 @@
 {
   "lang": "nl",
   "logo": "Relaxdam",
+  "navigation": "Navigatie",
   "title": "Relaxdam Massagesalon",
   "description": "Wij bieden premium massages, inclusief klassieke, gezichts-, ontspannings- en voetmassages in Rotterdam. Boek nu uw sessie!",
   "headerImgAlt": "Handen die een ontspannende rugmassage geven in een warme sfeer met zachte, gloeiende lichten op de achtergrond.",
@@ -50,6 +51,8 @@
   "titleEnglish": "Engels",
   "titleDutch": "Nederlands",
   "titleUkrainian": "Oekraïens",
+  "titleRussian": "Russisch",
+  "titlePolish": "Pools",
 
   "aboutUsId": "over-ons",
   "aboutUs": "Over ons",
@@ -65,5 +68,42 @@
   "bookNow": "Boek Nu",
   
   "phone": "+31 6 82332281",
-  "phone_tel": "+31682332281"
+  "phone_tel": "+31682332281",
+  "address": "Rotterdam",
+
+  "blog": {
+    "blog": "Blog",
+    "title": "Massagesalon Blog",
+    "subtitle": "Jouw gids naar de wereld van massage en welzijn",
+    "intro": "Welkom op onze blogpagina! Hier vind je nuttige zelfzorgtips, informatie over verschillende soorten massages en ontspanningsgeheimen voor het moderne levenstempo.",
+    "articles": [
+      {
+        "title": "Voordelen van ontspanningsmassage",
+        "content": [
+          "In de huidige wereld worden we vaak blootgesteld aan stress en vermoeidheid. Ontspanningsmassage is een uitstekende manier om spanningen te verlichten en harmonie in jezelf te vinden."
+        ],
+        "sections": [
+          {
+            "heading": "Wat zijn de voordelen van ontspanningsmassage?",
+            "points": [
+              "Stressvermindering: Zachte bewegingen en een ontspannende atmosfeer helpen stresshormonen zoals cortisol te verlagen.",
+              "Verbeterde slaapkwaliteit: Massage bevordert diepe ontspanning, waardoor de slaap rustiger en herstellender wordt.",
+              "Versterkt immuunsysteem: Regelmatige massage kan de weerstand van het lichaam tegen ziektes verbeteren door de bloedcirculatie te verbeteren.",
+              "Pijnverlichting: Het is een effectieve manier om spierspanning te verminderen en pijn in de rug of benen te verlichten."
+            ]
+          },
+          {
+            "heading": "Wanneer moet je een ontspanningsmassage overwegen?",
+            "points": [
+              "Als je gestrest bent en overmatig vermoeid.",
+              "Als je intensieve fysieke activiteit hebt ondergaan.",
+              "Voor preventie en gewoon voor plezier!"
+            ]
+          }
+        ],
+        "closing": "Boek vandaag nog een ontspanningsmassagesessie en voel het verschil!"
+      }
+    ],
+    "closing_note": "Blijf op de hoogte van updates en deel artikelen met je vrienden! Jouw gezondheid en comfort zijn onze prioriteit."
+  }
 }

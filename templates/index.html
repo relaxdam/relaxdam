@@ -30,12 +30,13 @@
       </div>
       <span class="logo">{{logo}}</span>
     </div>
-    <div class="menu">      
+    <div class="menu">
       <a href="#{{aboutUsId}}">{{aboutUs}}</a>
       <a href="#{{servicesId}}">{{services}}</a>
       <a href="#{{pricelistId}}">{{pricelist}}</a>
       <a href="#{{reviewsId}}">{{reviews}}</a>
       <a href="#{{contactId}}">{{contact}}</a>
+      <a href="./blog.html">{{blog.blog}}</a>
       <a href="#{{bookNowId}}" class="btn">{{bookNow}}</a>
     </div>
     <button class="hamburger" popovertarget="sideNav" title="{{navigation}}">☰</button>
@@ -46,6 +47,7 @@
     <a href="#{{pricelistId}}">{{pricelist}}</a>
     <a href="#{{reviewsId}}">{{reviews}}</a>
     <a href="#{{contactId}}">{{contact}}</a>
+    <a href="./blog.html">{{blog.blog}}</a>
     <a href="#{{bookNowId}}" class="btn">{{bookNow}}</a>
   </div>
 
@@ -225,8 +227,8 @@
 <section id="{{contactId}}" class="contact-section">
   <h2 class="section-title">{{contactUs}}</h2>
   <div class="contact-container" style="max-width: 80vw; align-content: center; margin: auto;">
-    <div class="contact-details">
-      <p><strong>{{addressLabel}}:</strong> <!--777 Relaxstraat, -->Rotterdam</p>
+    <address class="contact-details">
+      <p><strong>{{addressLabel}}:</strong> <!--777 Relaxstraat, -->{{address}}</p>
       <p><strong>{{phoneLabel}}:</strong> <a href="tel:{{phone_tel}}">📞 {{phone}}</a></p>
       <!--<p><strong>{{emailLabel}}:</strong> <a href="mailto:info@relaxdam.nl"><i class="fas fa-envelope"></i> info@relaxdam.nl</a></p>-->
       <!--<p><strong>{{googleMapsLabel}}:</strong> 
@@ -238,7 +240,7 @@
         <!--<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>-->
         <!--<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>-->
       </div>
-    </div>
+    </address>
   </div>
 </section>
 
@@ -257,7 +259,7 @@
   "telephone": "{{phone}}",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Rotterdam",
+    "addressLocality": "{{address}}",
     "addressCountry": "NL"
   },
   "openingHoursSpecification": [

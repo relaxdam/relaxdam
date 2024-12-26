@@ -1,6 +1,7 @@
 {
   "lang": "pl",
   "logo": "Relaxdam",
+  "navigation": "Nawigacja",
   "title": "Salon masażu Relaxdam",
   "description": "Oferujemy masaże premium, w tym klasyczny, twarzy, relaksacyjny oraz stóp w Rotterdamie. Zarezerwuj swój seans już teraz!",
   "headerImgAlt": "Ręce wykonujące relaksujący masaż pleców w ciepłej atmosferze z delikatnym, rozproszonym światłem w tle.",
@@ -50,6 +51,8 @@
   "titleEnglish": "Angielski",
   "titleDutch": "Niderlandzki",
   "titleUkrainian": "Ukraiński",
+  "titleRussian": "Rosyjski",
+  "titlePolish": "Polski",
 
   "aboutUsId": "o-nas",
   "aboutUs": "O nas",
@@ -65,5 +68,43 @@
   "bookNow": "Zarezerwuj",
 
   "phone": "+31 6 82332281",
-  "phone_tel": "+31682332281"
+  "phone_tel": "+31682332281",
+  "address": "Rotterdam",
+
+  "blog": {
+    "blog": "Blog",
+    "title": "Blog Salonu Masażu",
+    "subtitle": "Twój przewodnik po świecie masażu i wellness",
+    "intro": "Witaj na naszej stronie blogowej! Znajdziesz tu pomocne wskazówki dotyczące samoopieki, informacje o różnych rodzajach masażu oraz sekrety relaksu dla nowoczesnego tempa życia.",
+    "articles": [
+      {
+        "title": "Korzyści z masażu relaksacyjnego",
+        "content": [
+          "W dzisiejszym świecie często jesteśmy narażeni na stres i zmęczenie. Masaż relaksacyjny to doskonały sposób na uwolnienie napięcia i znalezienie harmonii w sobie."
+        ],
+        "sections": [
+          {
+            "heading": "Jakie są korzyści z masażu relaksacyjnego?",
+            "points": [
+              "Redukcja stresu: Łagodne ruchy i relaksująca atmosfera pomagają obniżyć poziom hormonów stresu, takich jak kortyzol.",
+              "Poprawa jakości snu: Masaż sprzyja głębokiemu relaksowi, sprawiając, że sen staje się spokojniejszy i regenerujący.",
+              "Wzmocnienie odporności: Regularny masaż może zwiększyć odporność organizmu na choroby, poprawiając krążenie krwi.",
+              "Łagodzenie bólu: Jest to efektywny sposób na zmniejszenie napięcia mięśniowego i złagodzenie bólu pleców lub nóg."
+            ]
+          },
+          {
+            "heading": "Kiedy warto rozważyć masaż relaksacyjny?",
+            "points": [
+              "Jeśli czujesz się zestresowany i nadmiernie zmęczony.",
+              "Jeśli przeszedłeś intensywną aktywność fizyczną.",
+              "Dla profilaktyki i po prostu dla przyjemności!"
+            ]
+          }
+        ],
+        "closing": "Zarezerwuj sesję masażu relaksacyjnego już dzisiaj i poczuj różnicę!"
+      }
+    ],
+    "closing_note": "Śledź nasze aktualizacje i dziel się artykułami z przyjaciółmi! Twoje zdrowie i komfort są dla nas priorytetem."
+  }
+
 }

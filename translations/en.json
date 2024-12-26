@@ -1,5 +1,6 @@
 {
   "lang": "en",
+  "navigation": "Navigation",
   "logo": "Relaxdam",
   "title": "Relaxdam Massage salon",
   "description": "Offering premium massages including classic, facial, relaxation, and foot massage in Rotterdam. Book your session now!",
@@ -34,7 +35,7 @@
   "preferredDateLabel": "Preferred Date",
   "timeSlotLabel": "Time slot",
   "submitButtonText": "Submit",
-  
+
   "customerFeedback": "Customer Feedback",
   "leaveAFeedback": "Leave a feedback",
 
@@ -44,12 +45,14 @@
   "emailLabel": "Email",
   "googleMapsLabel": "Find us on Google Maps",
   "viewLocation": "View Location",
-  
+
   "languageSelectorTitle": "Select a language",
   "currentLanguage": "English",
   "titleEnglish": "English",
   "titleDutch": "Dutch",
   "titleUkrainian": "Ukrainian",
+  "titleRussian": "Russian",
+  "titlePolish": "Polish",
 
   "aboutUsId": "about-us",
   "aboutUs": "About Us",
@@ -65,5 +68,44 @@
   "bookNow": "Book Now",
 
   "phone": "+31 6 82332281",
-  "phone_tel": "+31682332281"
+  "phone_tel": "+31682332281",
+  "address": "Rotterdam",
+
+  "blog": {
+    "blog": "Blog",
+    "title": "Massage Salon Blog",
+    "subtitle": "Your guide to the world of massage and wellness",
+    "intro": "Welcome to our blog page! Here you will find helpful self-care tips, information about various types of massage, and relaxation secrets for the modern pace of life.",
+    "articles": [
+      {
+        "title": "Benefits of Relaxation Massage",
+        "content": [
+          "In today's world, we are often exposed to stress and fatigue. Relaxation massage is an excellent way to relieve tension and find harmony within yourself."
+        ],
+        "sections": [
+          {
+            "heading": "What are the benefits of relaxation massage?",
+            "points": [
+              "Stress reduction: Gentle movements and a relaxing atmosphere help lower stress hormones such as cortisol.",
+              "Improved sleep quality: Massage promotes deep relaxation, making sleep more peaceful and restorative.",
+              "Strengthened immunity: Regular massage can enhance the body's resilience to illnesses by improving blood circulation.",
+              "Pain relief: It is an effective way to reduce muscle tension and alleviate back or leg pain."
+            ]
+          },
+          {
+            "heading": "When should you consider a relaxation massage?",
+            "points": [
+              "If you feel stressed and excessively fatigued.",
+              "If you have experienced intense physical activity.",
+              "For prevention and simply for pleasure!"
+            ]
+          }
+        ],
+        "closing": "Book a relaxation massage session today and feel the difference!"
+      }
+    ],
+    "closing_note": "Stay tuned for updates and share articles with your friends! Your health and comfort are our priority."
+  }
+
 }
+
