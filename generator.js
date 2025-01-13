@@ -16,6 +16,32 @@ const translations = fs.readdirSync(translationsDir).reduce((acc, file) => {
 }, {});
 
 
+var formatXml = function (xml) {
+  // https://stackoverflow.com/questions/376373/pretty-printing-xml-with-javascript
+  // Note: /.<\/\w[^>]*>$ is faster than /.+<\/\w[^>]*>$
+  var formatted = '';
+  var padding = '';
+  var nodes = xml.replace(/></g, '>\n<').split('\n');
+  for (var i = 0; i < nodes.length; i += 1) {
+    var node = nodes[i];
+    var indent = '';
+    if (!/.<\/\w[^>]*>$/.test(node)) {
+      if (/^<\/\w/.test(node)) {
+        padding = padding.slice(0, 0 - '  '.length);
+      } else {
+        if (/^<\w[^>]*[^\/]>.*$/.test(node)) {
+          indent = '  ';
+        }
+      }
+    }
+    formatted += padding + node + '\n';
+    padding += indent;
+  }
+  return formatted;
+};
+
+
+
 function generateArticles(values) {
   if (!values.blog) {
     return '';
@@ -41,7 +67,7 @@ function generateArticles(values) {
   for (let article of values.blog.articles) {
     s += generateArticle(article);
   }
-  return s;
+  return formatXml(s).replace(/\n/g, '\n  ');
 }
 
 // Helper function to replace placeholders in a template
