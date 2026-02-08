@@ -20,11 +20,21 @@
   "footMassageTitle": "Masaż stóp",
   "footMassageDescription": "Terapia masażu stóp, która łagodzi napięcie i poprawia krążenie. Idealna dla osób spędzających cały dzień na nogach lub każdego, kto szuka relaksującej ucieczki.",
 
+  "antiCelluliteMassageTitle": "Masaż antycellulitowy",
+  "antiCelluliteMassageDescription": "Ukierunkowany masaż poprawiający strukturę skóry, pobudzający krążenie i redukujący widoczność cellulitu. Idealny do modelowania sylwetki i poprawy jędrności skóry.",
+  "lymphaticDrainageMassageTitle": "Masaż limfatyczny",
+  "lymphaticDrainageMassageDescription": "Delikatna technika masażu wspierająca układ limfatyczny, redukująca obrzęki, wspomagająca detoksykację organizmu i poprawę samopoczucia. Idealny dla osób szukających lekkości i równowagi.",
+  "therapeuticMassageTitle": "Masaż leczniczy",
+  "therapeuticMassageDescription": "Masaż leczniczy skoncentrowany na łagodzeniu bólu mięśni, napięcia i dolegliwości fizycznych. Dostosowany indywidualnie, wspiera regenerację i poprawę mobilności.",
+  
   "pricelistTitle": "Cennik",
-  "classicMassagePrice": "60 EUR",
-  "facialMassagePrice": "60 EUR",
-  "relaxationMassagePrice": "60 EUR",
-  "footMassagePrice": "50 EUR",
+  "classicMassagePrice": "30 EUR za 30 min, 55 EUR za 60 min",
+  "facialMassagePrice": "30 EUR za 30 min, 60 EUR za 60 min",
+  "relaxationMassagePrice": "30 EUR za 30 min, 55 EUR za 60 min",
+  "footMassagePrice": "25 EUR za 30 min, 45 EUR za 60 min",
+  "antiCelluliteMassagePrice": "35 EUR za 30 min, 65 EUR za 60 min",
+  "lymphaticDrainageMassagePrice": "40 EUR za 30 min, 70 EUR za 60 min",
+  "therapeuticMassagePrice": "45 EUR za 30 min, 75 EUR za 60 min",
 
   "nameLabel": "Imię",
   "namePlaceholder": "Twoje imię",
@@ -77,6 +87,40 @@
     "subtitle": "Twój przewodnik po świecie masażu i wellness",
     "intro": "Witaj na naszej stronie blogowej! Znajdziesz tu pomocne wskazówki dotyczące samoopieki, informacje o różnych rodzajach masażu oraz sekrety relaksu dla nowoczesnego tempa życia.",
     "articles": [
+      {
+        "title": "Masaż limfatyczny – dlaczego Twoje ciało go potrzebuje",
+        "content": [
+          "Masaż limfatyczny to delikatna, ale skuteczna technika wspierająca naturalne procesy detoksykacji organizmu. Jest szczególnie polecany osobom odczuwającym obrzęki, zmęczenie lub ciężkość ciała."
+        ],
+        "sections": [
+          {
+            "heading": "Czym jest masaż limfatyczny?",
+            "points": [
+              "Delikatna i rytmiczna technika pobudzająca układ limfatyczny.",
+              "Pomaga usuwać toksyny i nadmiar płynów.",
+              "Wykonywany z lekkim naciskiem i spokojnym tempem."
+            ]
+          },
+          {
+            "heading": "Najważniejsze korzyści",
+            "points": [
+              "Redukcja obrzęków i zatrzymania wody.",
+              "Wzmocnienie odporności.",
+              "Poprawa krążenia krwi i limfy.",
+              "Uczucie lekkości i głębokiego relaksu."
+            ]
+          },
+          {
+            "heading": "Dla kogo polecany?",
+            "points": [
+              "Osób prowadzących siedzący tryb życia.",
+              "Osób z opuchniętymi nogami lub uczuciem ciężkości.",
+              "Każdego, kto dba o zdrowie i dobre samopoczucie."
+            ]
+          }
+        ],
+        "closing": "Zadbaj o swoje ciało i równowagę — umów się na masaż limfatyczny już dziś."
+      },
       {
         "title": "Korzyści z masażu relaksacyjnego",
         "content": [

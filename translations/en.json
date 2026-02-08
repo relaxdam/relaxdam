@@ -20,11 +20,20 @@
   "footMassageTitle": "Foot Massage",
   "footMassageDescription": "A therapeutic foot massage designed to relieve tension and improve circulation. Perfect for those on their feet all day or anyone looking for a relaxing escape.",
 
-  "pricelistTitle": "Price List",
-  "classicMassagePrice": "60 EUR",
-  "facialMassagePrice": "60 EUR",
-  "relaxationMassagePrice": "60 EUR",
-  "footMassagePrice": "50 EUR",
+  "antiCelluliteMassageTitle": "Anti-Cellulite Massage",
+  "antiCelluliteMassageDescription": "A targeted massage designed to improve skin texture, stimulate circulation, and reduce the appearance of cellulite. Ideal for body contouring and boosting skin firmness.",
+  "lymphaticDrainageMassageTitle": "Lymphatic Drainage Massage",
+  "lymphaticDrainageMassageDescription": "A gentle massage technique that supports the lymphatic system, helps reduce swelling, detoxify the body, and improve overall well-being. Perfect for those seeking lightness and balance.",
+  "therapeuticMassageTitle": "Therapeutic Massage",
+  "therapeuticMassageDescription": "A therapeutic massage focused on relieving muscle pain, tension, and physical discomfort. Tailored to individual needs, it helps improve mobility and support recovery.",
+
+  "classicMassagePrice": "30 EUR for 30 min, 55 EUR for 60 min",
+  "facialMassagePrice": "30 EUR for 30 min, 60 EUR for 60 min",
+  "relaxationMassagePrice": "30 EUR for 30 min, 55 EUR for 60 min",
+  "footMassagePrice": "25 EUR for 30 min, 45 EUR for 60 min",
+  "antiCelluliteMassagePrice": "35 EUR for 30 min, 65 EUR for 60 min",
+  "lymphaticDrainageMassagePrice": "40 EUR for 30 min, 70 EUR for 60 min",
+  "therapeuticMassagePrice": "45 EUR for 30 min, 75 EUR for 60 min",
 
   "nameLabel": "Name",
   "namePlaceholder": "Your name",
@@ -77,6 +86,40 @@
     "subtitle": "Your guide to the world of massage and wellness",
     "intro": "Welcome to our blog page! Here you will find helpful self-care tips, information about various types of massage, and relaxation secrets for the modern pace of life.",
     "articles": [
+      {
+        "title": "Lymphatic Drainage Massage: Why Your Body Needs It",
+        "content": [
+          "Lymphatic drainage massage is a gentle yet powerful technique that supports the body’s natural detoxification process. It is especially beneficial for those who experience swelling, fatigue, or a feeling of heaviness in the body."
+        ],
+        "sections": [
+          {
+            "heading": "What is lymphatic drainage massage?",
+            "points": [
+              "A soft and rhythmic massage technique focused on stimulating the lymphatic system.",
+              "Helps the body eliminate toxins and excess fluid naturally.",
+              "Unlike deep tissue massage, it uses light pressure and slow movements."
+            ]
+          },
+          {
+            "heading": "Key benefits of lymphatic drainage massage",
+            "points": [
+              "Reduced swelling and water retention: Especially helpful for legs, arms, and face.",
+              "Improved immune function: Supports the body’s natural defense mechanisms.",
+              "Enhanced circulation: Promotes better flow of lymph and blood.",
+              "Feeling of lightness and relaxation: Many clients notice immediate relief and comfort."
+            ]
+          },
+          {
+            "heading": "Who is this massage recommended for?",
+            "points": [
+              "People with a sedentary lifestyle or long hours of sitting.",
+              "Those experiencing swelling, bloating, or tired legs.",
+              "Anyone looking for gentle body detox and overall wellness support."
+            ]
+          }
+        ],
+        "closing": "Treat your body with care and balance — book a lymphatic drainage massage and experience deep, natural renewal."
+      },
       {
         "title": "Benefits of Relaxation Massage",
         "content": [

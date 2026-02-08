@@ -20,11 +20,21 @@
   "footMassageTitle": "Voetmassage",
   "footMassageDescription": "Een therapeutische voetmassage die is ontworpen om spanning te verlichten en de circulatie te verbeteren. Perfect voor wie de hele dag op hun voeten staat of gewoon op zoek is naar een ontspannende ontsnapping.",
   
+  "antiCelluliteMassageTitle": "Anti-cellulite massage",
+  "antiCelluliteMassageDescription": "Een gerichte massage die de huidstructuur verbetert, de bloedsomloop stimuleert en de zichtbaarheid van cellulite vermindert. Ideaal voor lichaamscontouring en het verbeteren van de huidstevigheid.",
+  "lymphaticDrainageMassageTitle": "Lymfedrainage massage",
+  "lymphaticDrainageMassageDescription": "Een zachte massagetechniek die het lymfestelsel ondersteunt, zwellingen vermindert, het lichaam helpt ontgiften en het algehele welzijn verbetert. Perfect voor wie lichtheid en balans zoekt.",
+  "therapeuticMassageTitle": "Therapeutische massage",
+  "therapeuticMassageDescription": "Een therapeutische massage gericht op het verlichten van spierpijn, spanning en lichamelijk ongemak. Afgestemd op individuele behoeften en ondersteunend bij herstel en mobiliteit.",
+
   "pricelistTitle": "Prijslijst",
-  "classicMassagePrice": "60 EUR",
-  "facialMassagePrice": "60 EUR",
-  "relaxationMassagePrice": "60 EUR",
-  "footMassagePrice": "50 EUR",
+  "classicMassagePrice": "30 EUR voor 30 min, 55 EUR voor 60 min",
+  "facialMassagePrice": "30 EUR voor 30 min, 60 EUR voor 60 min",
+  "relaxationMassagePrice": "30 EUR voor 30 min, 55 EUR voor 60 min",
+  "footMassagePrice": "25 EUR voor 30 min, 45 EUR voor 60 min",
+  "antiCelluliteMassagePrice": "35 EUR voor 30 min, 65 EUR voor 60 min",
+  "lymphaticDrainageMassagePrice": "40 EUR voor 30 min, 70 EUR voor 60 min",
+  "therapeuticMassagePrice": "45 EUR voor 30 min, 75 EUR voor 60 min",
 
   "nameLabel": "Naam",
   "namePlaceholder": "Uw naam",
@@ -77,6 +87,40 @@
     "subtitle": "Jouw gids naar de wereld van massage en welzijn",
     "intro": "Welkom op onze blogpagina! Hier vind je nuttige zelfzorgtips, informatie over verschillende soorten massages en ontspanningsgeheimen voor het moderne levenstempo.",
     "articles": [
+      {
+        "title": "Lymfedrainage massage: waarom je lichaam dit nodig heeft",
+        "content": [
+          "Lymfedrainage massage is een zachte maar effectieve techniek die het natuurlijke ontgiftingsproces van het lichaam ondersteunt. Ideaal bij zwellingen, vermoeidheid en een zwaar gevoel."
+        ],
+        "sections": [
+          {
+            "heading": "Wat is een lymfedrainage massage?",
+            "points": [
+              "Een zachte, ritmische techniek die het lymfestelsel stimuleert.",
+              "Helpt bij het afvoeren van afvalstoffen en overtollig vocht.",
+              "Wordt uitgevoerd met lichte druk en rustige bewegingen."
+            ]
+          },
+          {
+            "heading": "Belangrijkste voordelen",
+            "points": [
+              "Vermindering van zwellingen en vochtophoping.",
+              "Ondersteuning van het immuunsysteem.",
+              "Verbeterde circulatie van lymfe en bloed.",
+              "Een gevoel van lichtheid en diepe ontspanning."
+            ]
+          },
+          {
+            "heading": "Voor wie is deze massage geschikt?",
+            "points": [
+              "Mensen met een zittende levensstijl.",
+              "Bij vermoeide of gezwollen benen.",
+              "Voor iedereen die balans en welzijn zoekt."
+            ]
+          }
+        ],
+        "closing": "Geef je lichaam de zorg die het verdient — boek vandaag nog een lymfedrainage massage."
+      },
       {
         "title": "Voordelen van ontspanningsmassage",
         "content": [
