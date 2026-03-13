@@ -88,6 +88,39 @@
     "intro": "Witaj na naszej stronie blogowej! Znajdziesz tu pomocne wskazówki dotyczące samoopieki, informacje o różnych rodzajach masażu oraz sekrety relaksu dla nowoczesnego tempa życia.",
     "articles": [
       {
+        "title": "Marcowy masaż: świeży start dla Twojego ciała",
+        "content": [
+          "Marzec to idealny moment, aby odświeżyć ciało i umysł po długich zimowych miesiącach. Gdy natura zaczyna się budzić, masaż pomaga przywrócić równowagę organizmu, poprawić krążenie i przygotować ciało na aktywną wiosnę."
+        ],
+        "sections": [
+          {
+            "heading": "Dlaczego masaż w marcu jest szczególnie korzystny",
+            "points": [
+              "Pomaga organizmowi płynnie przejść z zimy do wiosny, zwiększając energię i poprawiając krążenie.",
+              "Łagodzi sztywność mięśni spowodowaną zimnem i mniejszą aktywnością fizyczną.",
+              "Wspiera naturalne procesy oczyszczania i regeneracji organizmu."
+            ]
+          },
+          {
+            "heading": "Najważniejsze korzyści masażu wiosennego",
+            "points": [
+              "Więcej energii: masaż pobudza krążenie krwi i dodaje witalności.",
+              "Mniej napięcia i zmęczenia: techniki relaksacyjne pomagają uwolnić nagromadzony stres.",
+              "Lepsza elastyczność: mięśnie stają się bardziej rozluźnione i gotowe na większą aktywność."
+            ]
+          },
+          {
+            "heading": "Dla kogo polecany jest marcowy masaż?",
+            "points": [
+              "Dla osób odczuwających zmęczenie po zimie.",
+              "Dla osób z napięciem mięśniowym lub sztywnością ciała.",
+              "Dla każdego, kto chce rozpocząć wiosnę z nową energią i równowagą."
+            ]
+          }
+        ],
+        "closing": "Powitaj nowy sezon z troską o ciało — zarezerwuj marcowy masaż i poczuj więcej energii, relaksu i lekkości."
+      },
+      {
         "title": "Masaż limfatyczny – dlaczego Twoje ciało go potrzebuje",
         "content": [
           "Masaż limfatyczny to delikatna, ale skuteczna technika wspierająca naturalne procesy detoksykacji organizmu. Jest szczególnie polecany osobom odczuwającym obrzęki, zmęczenie lub ciężkość ciała."

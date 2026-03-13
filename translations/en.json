@@ -87,6 +87,39 @@
     "intro": "Welcome to our blog page! Here you will find helpful self-care tips, information about various types of massage, and relaxation secrets for the modern pace of life.",
     "articles": [
       {
+        "title": "March Massage: A Fresh Start for Your Body",
+        "content": [
+          "March is the perfect time to refresh your body and mind after the long winter months. As nature begins to awaken, massage therapy can help your body restore balance, improve circulation, and prepare for the active spring season."
+        ],
+        "sections": [
+          {
+            "heading": "Why massage is beneficial in March",
+            "points": [
+              "Helps the body transition from winter to spring with improved circulation and energy.",
+              "Relieves muscle stiffness caused by cold weather and reduced physical activity.",
+              "Supports the body’s natural detox and renewal processes."
+            ]
+          },
+          {
+            "heading": "Key benefits of a spring massage",
+            "points": [
+              "Increased energy levels: Massage stimulates blood flow and helps you feel more active.",
+              "Reduced tension and fatigue: Relaxing techniques help release built-up stress from winter months.",
+              "Improved flexibility: Muscles become more relaxed and ready for increased activity."
+            ]
+          },
+          {
+            "heading": "Who should consider a March massage?",
+            "points": [
+              "People feeling tired or low on energy after winter.",
+              "Those experiencing muscle stiffness or body tension.",
+              "Anyone who wants to start the spring season feeling refreshed and balanced."
+            ]
+          }
+        ],
+        "closing": "Welcome the new season with care — book your March massage and enjoy renewed energy, relaxation, and a lighter body."
+      },
+      {
         "title": "Lymphatic Drainage Massage: Why Your Body Needs It",
         "content": [
           "Lymphatic drainage massage is a gentle yet powerful technique that supports the body’s natural detoxification process. It is especially beneficial for those who experience swelling, fatigue, or a feeling of heaviness in the body."
